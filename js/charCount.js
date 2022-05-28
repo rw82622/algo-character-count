@@ -12,11 +12,7 @@ exports.charCount = function (yourString) {
     myArr.push([key, myObj[key]]);
   }
   //sort myArr alphabetically
-  myArr.sort((a, b) => {
-    if (a[0] > b[0]) return 1;
-    if (a[0] < b[0]) return -1;
-    if (a[0] == b[0]) return 0;
-  });
+  myArr.sort();
   //return myArr sorted by the number of occurances (descending)
   return myArr.sort((a, b) => {
     if (a[1] > b[1]) return -1;
