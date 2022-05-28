@@ -20,4 +20,3 @@ exports.charCount = function (yourString) {
     if (a[1] == b[1]) return 0;
   });
 };
-// console.log(charCount("an apple a day will keep the doctor away"));
